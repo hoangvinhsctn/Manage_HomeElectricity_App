@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/background_layer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:drawablePadding="20dp"
+        android:drawableStart="@drawable/manage_icon"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản lý thiết bị trong gia đình" />
+
+    <EditText
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtToolName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nhập vào tên thiết bị" />
+
+    <EditText
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtToolP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Nhập vào công suất tiêu thụ (đơn vị: KW)"/>
+
+    <EditText
+        android:background="@drawable/custom_edittext"
+        android:layout_marginTop="10dp"
+        android:id="@+id/edtToolt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Nhập vào thời gian tiêu thụ (đơn vị: h)" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <Button
+            android:background="@drawable/custom_button"
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm vào LIST" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/custom_button"
+            android:text="CHUYỂN TIẾP" />
+    </LinearLayout>
+
+</LinearLayout>

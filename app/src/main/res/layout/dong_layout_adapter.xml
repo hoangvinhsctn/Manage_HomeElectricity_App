@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="3">
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_weight="1"
+        android:background="@drawable/custom_text"
+        android:id="@+id/textViewName"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Tên" />
+
+    <TextView
+        android:id="@+id/textViewP"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_text"
+        android:text="Công suất tiêu thụ" />
+
+    <TextView
+        android:layout_weight="1"
+        android:background="@drawable/custom_text"
+        android:id="@+id/textViewt"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Thời gian tiêu thụ" />
+</LinearLayout>

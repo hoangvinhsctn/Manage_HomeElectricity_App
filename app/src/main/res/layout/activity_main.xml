@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:drawablePadding="25dp"
+        android:paddingLeft="20dp"
+        android:drawableStart="@drawable/electricity_icon"
+        android:textColor="#616060"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ứng dụng quản lý tiền điện" />
+
+    <EditText
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/user_icon"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Nhập vào tên của bạn" />
+
+    <EditText
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/phone_icon"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/edtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Nhập vào số điện thoại"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_button"
+        android:id="@+id/btnClickView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập" />
+</LinearLayout>
